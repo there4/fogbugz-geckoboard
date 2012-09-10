@@ -1,0 +1,24 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Thumbnails
+._*
+
+# Private/untracked routes and config
+routes/_*.php
+config/config.php
+config/_*.php
+data/_*.json
+
+
+# Composer files
+/Vendor/.composer/
+Vendor/
+
+# Vagrant output
+log/access.log
+log/error.log
+.vagrant

@@ -1,0 +1,21 @@
+{
+    "hash": "eb2afddb522f76e03d2fd06fa9707790",
+    "packages": [
+        {
+            "package": "dflydev/markdown",
+            "version": "v1.0.2"
+        },
+        {
+            "package": "slim/slim",
+            "version": "2.0.0"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ]
+}

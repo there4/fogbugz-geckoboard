@@ -1,0 +1,23 @@
+{
+    "name": "there4/fogbugz-geckboard",
+    "type": "library",
+    "description": "Fogbugz Widgets for Geckoboard",
+    "keywords": ["fogbugz","geckboard"],
+    "homepage": "https://github.com/there4/fogbugz-geckoboard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Caig Davis",
+            "email": "craig@there4development.com",
+            "homepage": "http://there4development.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "slim/slim": "2.*",
+        "dflydev/markdown": "1.*"
+    },
+    "autoload": {
+        "psr-0": { "Slim": "Slim/" }
+    }
+}
