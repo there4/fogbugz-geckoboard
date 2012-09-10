@@ -11,12 +11,10 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="/assets/css/normalize.css">
-        <link rel="stylesheet" href="/assets/css/site.css">
         <link rel="stylesheet" href="/assets/css/markdown.css">
+        <link rel="stylesheet" href="/assets/css/site.css">
     </head>
     <body>
-        <div class="container">
-            <?php echo $body; ?>
-        </div>
+        <?php echo $body; ?>
     </body>
 </html>

@@ -1,13 +1,13 @@
-FogBugz Geckoboard Widgets
----------------------------------------
+# FogBugz Geckoboard Widgets
 
+*****
 
 This site provides data from FogBogz to drive a collection of widgets for use
 in [Geckoboard][geckboard]. 
 
 
 * [Homepage][home]
-* Author: [Craig Davis](craig@there4development.com) of [There4][there4]
+* Author: [Craig Davis][author] of [There4][there4]
 
 
 ## Development
@@ -15,6 +15,13 @@ in [Geckoboard][geckboard].
 I develop with Vagrant, commit, and then host it on an external site where I can
 then test with Geckboard. To see a local version of this, you'll need to setup
 [Vagrant][vagrant] and then `vagrant up`.
+
+## Private Routes
+
+If you create route files in `./routes/` with a leading underscore, a gitignore
+file rule will ignore them from the repo. This should make it easier to add new
+private routes to your clone or branch without having to clutter up the ignore
+file with rules for everyone.
 
 ## Installation
 
@@ -35,6 +42,7 @@ widgets in the proper format
 * [Custom Widget Help](http://docs.geckoboard.com/custom-widgets/beginners-guide.html)
 * [Geckboard Styles](https://insight.geckoboard.com/css/dashboard.css)
 
+[author]: mailto:craig@there4development.com
 [there4]: http://there4development.com/#home
 [home]: https://github.com/there4/fogbugz-geckoboard
 [geckboard]: http://www.geckoboard.com/
@@ -42,4 +50,4 @@ widgets in the proper format
 [brew]: https://github.com/composer/composer#global-installation-of-composer-via-homebrew
 [vagrant]: http://vagrantup.com/v1/docs/getting-started/index.html
 
----------------------------------------
+***
