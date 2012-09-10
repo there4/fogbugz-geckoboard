@@ -1,8 +1,14 @@
 FogBugz Geckoboard Widgets
 ---------------------------------------
 
+
 This site provides data from FogBogz to drive a collection of widgets for use
 in [Geckoboard][geckboard]. 
+
+
+* [Homepage][home]
+* Author: [Craig Davis](craig@there4development.com) of [There4][there4]
+
 
 ## Development
 
@@ -23,15 +29,17 @@ installing [Composer with Brew][brew]. Once you've done that it, run
 Please see the comments in the /routes files about how to setup the geckoboard
 widgets in the proper format
 
-
 ## Notes
 
 * [HTML Tags in custom widgets](http://support.geckoboard.com/entries/20124937-html-tags-allowed-in-the-custom-text-widget)
 * [Custom Widget Help](http://docs.geckoboard.com/custom-widgets/beginners-guide.html)
 * [Geckboard Styles](https://insight.geckoboard.com/css/dashboard.css)
 
-
+[there4]: http://there4development.com/#home
+[home]: https://github.com/there4/fogbugz-geckoboard
 [geckboard]: http://www.geckoboard.com/
 [composer]: https://github.com/composer/composer
 [brew]: https://github.com/composer/composer#global-installation-of-composer-via-homebrew
 [vagrant]: http://vagrantup.com/v1/docs/getting-started/index.html
+
+---------------------------------------

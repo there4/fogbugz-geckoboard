@@ -18,7 +18,12 @@ require_once __DIR__ . '/lib/Gecko/response.php';
 use Slim\Slim;
 
 // Start Slim framework and setup our config and GeckboBoard response object
-$app = new Slim();
+$app = new Slim(array(
+    'log.enable' => false
+));
+
+// This is from GeckoBoard and helps format json and xml data
+$app->geckoResponse = new Response();
 
 // If this config file isn't found, prompt the user to add it.
 $configFile = __DIR__ . '/config/config.php';
@@ -30,8 +35,10 @@ elseif ($_SERVER['REQUEST_URI'] !== '/require-config') {
   header('Location: http://' . $_SERVER['HTTP_HOST'] . '/require-config');
   exit();
 }
-
-$app->geckoResponse = new Response();
+else {
+  // init this to prevent a php strict error below
+  $app->config = (object) array('require_auth' => '', 'gecko_auth' => '');
+}
 
 // This is a Slim Middleware helper to establish authentication
 $apiAuthenticate = function() use ($app) {
