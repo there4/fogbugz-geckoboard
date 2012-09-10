@@ -8,6 +8,8 @@ return (object) array(
     'require_auth' => false, // This can be off for dev mode
     'gecko_auth' => 'b80g7Aa5K3BORCcOcV7VlNA2gpqLoDrb35B8Zl',
     
+    'kiln_rss' => '',
+    
     // Ignore these users in the working on list
     'ignore' => ''
 );

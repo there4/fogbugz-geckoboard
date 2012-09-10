@@ -15,7 +15,8 @@
     "require": {
         "php": ">=5.2.0",
         "slim/slim": "2.*",
-        "dflydev/markdown": "1.*"
+        "dflydev/markdown": "1.*",
+        "dg/rss-php": "1.*"
     },
     "autoload": {
         "psr-0": { "Slim": "Slim/" }

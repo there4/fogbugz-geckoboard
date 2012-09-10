@@ -1,9 +1,13 @@
 {
-    "hash": "eb2afddb522f76e03d2fd06fa9707790",
+    "hash": "5f770380bf537aea1689442beb2bc64d",
     "packages": [
         {
             "package": "dflydev/markdown",
             "version": "v1.0.2"
+        },
+        {
+            "package": "dg/rss-php",
+            "version": "v1.0.0"
         },
         {
             "package": "slim/slim",
