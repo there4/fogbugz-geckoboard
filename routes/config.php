@@ -14,7 +14,10 @@ $app->get('/require-config', function () use ($app, $configFile) {
     
     $index = $markdownParser->transformMarkdown($configMe);
     
-    $app->render('page.php', array('body' => $index));
+    $app->render('page.php', array(
+        'title' => 'Configuration Error',
+        'body'  => $index
+    ));
 
 });
 

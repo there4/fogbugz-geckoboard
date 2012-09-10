@@ -8,7 +8,10 @@ $app->get('/', function () use ($app) {
     
     $index = $markdownParser->transformMarkdown($readMe);
     
-    $app->render('page.php', array('body' => $index));
+    $app->render('page.php', array(
+        'title' => "Fogbugz Widgets for Geckoboard",
+        'body'  => $index
+    ));
 
 });
 
