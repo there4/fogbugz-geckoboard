@@ -1,7 +1,5 @@
 # FogBugz Geckoboard Widgets
 
-*****
-
 This site provides data from FogBogz to drive a collection of widgets for use
 in [Geckoboard][geckboard]. 
 
@@ -25,16 +23,17 @@ file with rules for everyone.
 
 ## Installation
 
-This app is build on top of slim, and packages are managed with
+This app is build on top of [Slim][slim], and packages are managed with
 [Composer][composer]. If you are working on an OSX machine, I highly recommend
-installing [Composer with Brew][brew]. Once you've done that it, run
+installing [Composer with Brew][brew]. Once you've done that, run
 `composer install` and then access the site. If you're on Vagrant, it'll be at
 [33.33.33.100](http://33.33.33.100).
 
 ## Geckoboard Setup
 
-Please see the comments in the /routes files about how to setup the geckoboard
-widgets in the proper format
+* Developer List
+* Kiln RSS
+* Case Counts for lists
 
 ## Notes
 
@@ -48,6 +47,7 @@ widgets in the proper format
 [geckboard]: http://www.geckoboard.com/
 [composer]: https://github.com/composer/composer
 [brew]: https://github.com/composer/composer#global-installation-of-composer-via-homebrew
+[slim]: http://www.slimframework.com/
 [vagrant]: http://vagrantup.com/v1/docs/getting-started/index.html
 
 ***
