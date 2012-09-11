@@ -11,7 +11,7 @@ $app->get('/kiln', function () use ($app) {
     $rss = Feed::loadRss($app->config->kiln_rss);
 
     $res = $app->response();
-    //$res['Content-Type'] = 'application/rss+xml';
+    $res['Content-Type'] = 'application/rss+xml';
  
     $rssfeed  = '<?xml version="1.0" encoding="utf-8"?>';
     $rssfeed .= '<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0">';
