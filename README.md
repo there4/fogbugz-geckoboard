@@ -1,7 +1,9 @@
 # FogBugz Geckoboard Widgets
 
+> **DEPRECATED** This project is no longer maintained. If you are interested in maintaining this project, please open an issue.
+
 This site provides data from FogBogz to drive a collection of widgets for use
-in [Geckoboard][geckboard]. 
+in [Geckoboard][geckboard].
 
 
 * [Homepage][home]
